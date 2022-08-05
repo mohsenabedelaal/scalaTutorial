@@ -54,6 +54,6 @@ The structure of the function
     }
 returnType : 
 - Unit (means none)
--Int(integer)
--String(string)
+- Int(integer)
+- String(string)
 ....
