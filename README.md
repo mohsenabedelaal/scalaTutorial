@@ -1,4 +1,4 @@
-# Scala
+#Scala
 Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries.
 
 ### Variables:
@@ -32,3 +32,16 @@ example :
     for (i <- 1 to 10)
     	println(i)
 
+    var randomString = "Adasdsadas"
+    for(i <- 0 until randomString.length)
+    		 println(randomString(i))
+
+    val aList = List(1,2,3,4,5)
+    for(i <- aList){
+    		 println(i)
+    		 }
+			 
+    for (i <- 1 to 5; j <- 6 to 10){
+    println("i="+i)
+    println("j="+j)
+    }
