@@ -1,4 +1,4 @@
-#Scala
+# Scala
 Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries.
 
 ### Variables:
@@ -45,3 +45,15 @@ example :
     println("i="+i)
     println("j="+j)
     }
+
+### Functions :
+The structure of the function 
+    def funcName (param1:dataType ,param2:dataType ): returnType ={
+    function body
+    return valueToReturn
+    }
+returnType : 
+- Unit (means none)
+-Int(integer)
+-String(string)
+....
