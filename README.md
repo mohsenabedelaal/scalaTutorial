@@ -57,3 +57,17 @@ returnType :
 - Int(integer)
 - String(string)
 ....
+
+### Data Structure
+Array :
+`val favNums = new Array[Int](20)`
+`val friends = Array("bob","john")`
+`friends(0) = "Sue"`
+`val frineds2 = ArrayBuffer[String]()`
+`friends2.insert(0,"Phil")`
+`friends2.remove(1,2)`
+`var myList = Array(1.9, 20.1, 3.1)`
+List:
+`var myList = List(1,2,3,4)`
+
+
